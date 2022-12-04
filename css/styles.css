@@ -231,7 +231,7 @@ p {
 .modal-label {
     position: absolute;
     top: 0;
-    transform: translateY(-100%);
+    transform: translateY(-120%);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
@@ -615,6 +615,7 @@ p {
 }
 .join-input {
     min-width: 358px;
+    height: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 16px;
@@ -629,6 +630,7 @@ p {
 .join-button {
     display: inline-flex;
     min-width: 200px;
+    height: 50px;
     padding: 11px 28px 10px;
     margin-left: 12px;
     font-weight: 700;
@@ -641,7 +643,7 @@ p {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    border-color: transparent;
+    border: none;
     cursor: pointer;
 }
 .join-icon {
